@@ -15,13 +15,13 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Impianti", "http://localhos
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_56909"
-		Release.AspNetCompiler.PhysicalPath = "..\Impianti\"
+		Release.AspNetCompiler.PhysicalPath = "\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56909\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\Impianti\"
+		SlnRelativePath = "\"
 	EndProjectSection
 EndProject
 Global
