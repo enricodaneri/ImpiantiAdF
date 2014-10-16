@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <title>Prova</title>
+
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script type="text/javascript">
+
+            window.onload = function () {
+                function listener(event) {
+                    if (event.origin !== "http://localhost:56909")
+                    if (event.origin !== "http://impiantiadf.azurewebsite.net")
+                        return;
+                        //alert("qui ci sono");
+                        document.getElementById("demo").innerText = event.data;
+                        //__doPostBack('CustomPostBack', event.data);
+                    }
+                if (window.addEventListener) {
+                    addEventListener("message", listener, false)
+                }
+                else {
+                attachEvent("onmessage", listener)
+                }
+            }
+
+        </script>
+
+        <script type="text/javascript">
+
+            function fetchStatus(address) {
+
+                var client = new XMLHttpRequest();
+
+                client.onreadystatechange = function () {
+                // in case of network errors this might not give reliable results
+                if (this.readyState == this.DONE)
+                    if (this.status == 200) { document.getElementById("demo").innerHTML = document.getElementById("myURL").value; }
+                    else { document.getElementById("demo").innerHTML = "File non trovato!" };
+                }
+                client.open("HEAD", address);
+                client.send();
+            }
+
+        </script>
+    </body>
+</html>

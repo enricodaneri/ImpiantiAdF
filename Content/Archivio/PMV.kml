@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Impianti Autostrada dei Fiori.kml</name>
+	<open>1</open>
+	<Style id="PanMessVar">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://borgocason.altervista.org/ArchivioIMG/ImmaginiAdF/PMV.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="PMV">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PanMessVar</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PanMessVar</styleUrl>
+		</Pair>
+	</StyleMap>
+  <Style id="CabEle">
+    <IconStyle>
+      <scale>1.1</scale>
+      <Icon>
+        <href>http://borgocason.altervista.org/ArchivioIMG/ImmaginiAdF/Cabina.png</href>
+      </Icon>
+      <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+  </Style>
+  <StyleMap id="Cabina">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CabEle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CabEle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Pannelli a messaggio variabile</name>
+		<open>0</open>
+    <visibility>0</visibility>
+		<Placemark>
+			<name>PMV Itinere Passeggi</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "PASSEGGF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.432246729396377</longitude>
+				<latitude>44.29452631644579</latitude>
+				<altitude>0</altitude>
+				<heading>0.321364754886227</heading>
+				<tilt>0</tilt>
+				<range>67.2746600197754</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.43219405286604,44.29460120552936,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere San Cristoforo</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "SCRISTOF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.452334412711796</longitude>
+				<latitude>44.30397491614231</latitude>
+				<altitude>0</altitude>
+				<heading>0.3353924353332221</heading>
+				<tilt>0</tilt>
+				<range>68.65727836666224</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.452237397482787,44.30401424938466,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Fornaci Est</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "FORNACIF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.407109471712055</longitude>
+				<latitude>44.25335129552391</latitude>
+				<altitude>0</altitude>
+				<heading>0.3038204492530987</heading>
+				<tilt>0</tilt>
+				<range>93.94065105446367</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.406886728716568,44.25334074947267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Fornaci Ovest</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "FORNACII"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.39908119458922</longitude>
+				<latitude>44.23673590293116</latitude>
+				<altitude>0</altitude>
+				<heading>0.2982196347042919</heading>
+				<tilt>0</tilt>
+				<range>97.07016235019226</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.399054918616802,44.23669587707871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Santa Libera</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "SLIBERAI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.36163055676508</longitude>
+				<latitude>44.22621218529836</latitude>
+				<altitude>0</altitude>
+				<heading>0.2720979308397361</heading>
+				<tilt>0</tilt>
+				<range>342.284060565448</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.361719256887907,44.22628076543393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Borsana Nord</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "BORSANAF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.358616474405263</longitude>
+				<latitude>44.22544817566083</latitude>
+				<altitude>0</altitude>
+				<heading>0.2699973443442946</heading>
+				<tilt>0</tilt>
+				<range>115.8600051196188</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.358480541805447,44.22547093486859,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Carpanea Ovest</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "CARPANEI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.305723674271597</longitude>
+				<latitude>44.19581382720929</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03680770608208477</heading>
+				<tilt>0</tilt>
+				<range>243.4722324270344</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.305402105581923,44.19576605794268,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Porra</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "VIPORRAFF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.305782577783287</longitude>
+				<latitude>44.19317550045824</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03676692661321378</heading>
+				<tilt>0</tilt>
+				<range>127.9197913111298</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.305855055884749,44.19308636715732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Bottassano</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "BOTTASAF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.294821037693072</longitude>
+				<latitude>44.17606418903223</latitude>
+				<altitude>0</altitude>
+				<heading>-0.04440627208770873</heading>
+				<tilt>0</tilt>
+				<range>131.4811700203649</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.294795331142623,44.17613725750939,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Monte Grosso Ovest</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "MONTEGRI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.275411049574633</longitude>
+				<latitude>44.16363251859135</latitude>
+				<altitude>0</altitude>
+				<heading>-0.05793007270980259</heading>
+				<tilt>0</tilt>
+				<range>117.1992210443527</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.275381844661405,44.16343769851505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Seminario Ovest</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "SEMINARII"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.245506307657417</longitude>
+				<latitude>44.14116205307303</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07876026148520735</heading>
+				<tilt>0</tilt>
+				<range>146.7284861247163</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.245507690139707,44.14114604746464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Meceti Est</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "SEMINAIF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.244834756099396</longitude>
+				<latitude>44.14047202567572</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07922786146818731</heading>
+				<tilt>0</tilt>
+				<range>120.9132691036247</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.244791277663223,44.14052506016621,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Ceriale Nord</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "CERIALEF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.204617087666495</longitude>
+				<latitude>44.08707584670662</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1072207738639402</heading>
+				<tilt>0</tilt>
+				<range>260.4799636644101</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.204540305981226,44.08716080920549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Ceriale Sud</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "CERIALEI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.202917253253467</longitude>
+				<latitude>44.0857401597041</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1084034171448042</heading>
+				<tilt>0</tilt>
+				<range>265.8594801922388</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.202780232839093,44.08577071203976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Isoleri</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "ISOLERII"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.14440528295583</longitude>
+				<latitude>44.04461004620634</latitude>
+				<altitude>0</altitude>
+				<heading>-0.149096542150221</heading>
+				<tilt>0</tilt>
+				<range>233.5262372319644</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.144179175732687,44.04461352963613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Furioso</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "FURIOSOF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.131449876858817</longitude>
+				<latitude>44.02043681920898</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1581025390036876</heading>
+				<tilt>0</tilt>
+				<range>131.4937986898254</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.131510114331466,44.02038728229254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Bric Arpicella</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "BRICARPI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.134673306195607</longitude>
+				<latitude>43.99712212814848</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1558625719849681</heading>
+				<tilt>0</tilt>
+				<range>134.4556381815362</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.134360329268333,43.99722328539826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Merula Ovest</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "MERULAVF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.135515488436472</longitude>
+				<latitude>43.96069235261791</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1552757191928717</heading>
+				<tilt>0</tilt>
+				<range>154.7406521225163</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.135510435895807,43.96054669954757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Cavalcavia 80</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "CAVAL80I"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.101867232299266</longitude>
+				<latitude>43.93209681184712</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1786225869902039</heading>
+				<tilt>0</tilt>
+				<range>164.7658056806248</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.101979333944634,43.93224810076164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Diano Calderina</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "CALDERIF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.06879220265871</longitude>
+				<latitude>43.91384534513976</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02294376909638773</heading>
+				<tilt>0</tilt>
+				<range>287.6975717132327</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.068792252659273,43.91375534591681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Gorleri</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "GORLERII"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.062463341307101</longitude>
+				<latitude>43.9051840022865</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0273327741092322</heading>
+				<tilt>0</tilt>
+				<range>197.0893846169315</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.062861034900537,43.90512188391104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Impero</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "VIMPEROI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.027991428055442</longitude>
+				<latitude>43.89801089862202</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0239019218436372</heading>
+				<tilt>0</tilt>
+				<range>156.0942314246755</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.027552566614254,43.89809435264615,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Sant&apos;Agata</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "VIMPEROF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>8.028020329446083</longitude>
+				<latitude>43.89647100364602</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02388188558823896</heading>
+				<tilt>0</tilt>
+				<range>144.2639657905551</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.027882352125372,43.89650394470296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Conioli Nord</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "CONIOLIF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.908859175644398</longitude>
+				<latitude>43.85199655035283</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1064556758722619</heading>
+				<tilt>0</tilt>
+				<range>298.741233244758</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.908601533006974,43.85170962383058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Castellaro</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "CASTELLI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.878263138926301</longitude>
+				<latitude>43.85982038434469</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1276537760299077</heading>
+				<tilt>0</tilt>
+				<range>362.3554390825207</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.878580508087612,43.8596374221375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Amoretti</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "AMORETTI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.827184250489683</longitude>
+				<latitude>43.84453851461175</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1630443462148116</heading>
+				<tilt>0</tilt>
+				<range>327.8036145794113</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.827253241047569,43.84454623125259,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere San Francesco</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "SFRANCEF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.75696935090216</longitude>
+				<latitude>43.83915542236608</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2116750581929608</heading>
+				<tilt>0</tilt>
+				<range>254.4102287851886</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.757112920178106,43.83902485204153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Fossato Bianco</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "FOSSOBII"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.713701520358295</longitude>
+				<latitude>43.81028188083466</latitude>
+				<altitude>0</altitude>
+				<heading>-0.241634947627931</heading>
+				<tilt>0</tilt>
+				<range>114.8128624035204</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.713891572703735,43.81035679438938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Costa Martina</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "COSTAMAF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.713224451398197</longitude>
+				<latitude>43.81020849048311</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2419652096090639</heading>
+				<tilt>0</tilt>
+				<range>108.8226607274071</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.713156495970952,43.81025253443702,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Bauso</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "MBAUSOEF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.657973625231201</longitude>
+				<latitude>43.80091708710661</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2802063469929182</heading>
+				<tilt>0</tilt>
+				<range>139.1828260009737</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.658124075938173,43.80087097516579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Siestro Ovest</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "SIESTROI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.599916376622867</longitude>
+				<latitude>43.80166860515228</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3203907045208679</heading>
+				<tilt>0</tilt>
+				<range>96.53295898682838</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.599680643998945,43.80162364797081,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Delmonte Est</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "DEMONTEF"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.590801330663568</longitude>
+				<latitude>43.79965614280611</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3266996848113852</heading>
+				<tilt>0</tilt>
+				<range>87.20744660229805</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.590566973336204,43.79957923845424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Val Sorba</name>
+      <visibility>0</visibility>
+      <description>
+        <![CDATA[
+          {
+              "Dati": {
+                  "tabella": "PV",
+                  "elemento": "VALSORBI"
+              }
+          }
+      ]]>
+      </description>
+      <LookAt>
+				<longitude>7.549474198296825</longitude>
+				<latitude>43.78755960452037</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3553002285231942</heading>
+				<tilt>0</tilt>
+				<range>124.309051164159</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.549518157940609,43.78752372781008,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

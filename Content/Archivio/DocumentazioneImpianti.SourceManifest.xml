@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <DbDacFx path="C:\Users\daneri\Documents\Visual Studio 2012\Projects\DocumentazioneImpianti\DocImpianti\DocumentazioneImpianti\obj\Debug\AutoScripts\DefaultConnection_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+  <DbDacFx path="C:\Users\daneri\Documents\Visual Studio 2012\Projects\DocumentazioneImpianti\DocImpianti\DocumentazioneImpianti\obj\Debug\AutoScripts\Impianti_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+  <IisApp path="C:\Users\daneri\Documents\Visual Studio 2012\Projects\DocumentazioneImpianti\DocImpianti\DocumentazioneImpianti\obj\Debug\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="C:\Users\daneri\Documents\Visual Studio 2012\Projects\DocumentazioneImpianti\DocImpianti\DocumentazioneImpianti\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\daneri\Documents\Visual Studio 2012\Projects\DocumentazioneImpianti\DocImpianti\DocumentazioneImpianti\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

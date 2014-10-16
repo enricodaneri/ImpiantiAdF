@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Microsoft.Owin.Security.Google</name>
+  </assembly>
+  <members>
+    <member name="T:Microsoft.Owin.Security.Google.GoogleAuthenticatedContext">
+      <summary>Rappresenta un contesto autenticato Google.</summary>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleAuthenticatedContext.#ctor(Microsoft.Owin.IOwinContext,System.Security.Claims.ClaimsIdentity,Microsoft.Owin.Security.AuthenticationProperties,System.Xml.Linq.XElement,System.Collections.Generic.IDictionary{System.String,System.String})"></member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticatedContext.AttributeExchangeProperties">
+      <summary>Ottiene o imposta le proprietà per il contesto di scambio degli attributi.</summary>
+      <returns>Proprietà per il contesto di scambio degli attributi.</returns>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticatedContext.Identity">
+      <summary>Ottiene o imposta le identità basate su attestazioni associate al contesto.</summary>
+      <returns>Identità basate su attestazioni associate al contesto.</returns>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticatedContext.Properties"></member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticatedContext.ResponseMessage">
+      <summary>Ottiene o imposta il messaggio di risposta dell'autenticazione.</summary>
+      <returns>Messaggio di risposta dell'autenticazione.</returns>
+    </member>
+    <member name="T:Microsoft.Owin.Security.Google.GoogleAuthenticationMiddleware">
+      <summary>Rappresenta un middleware di autenticazione Google.</summary>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleAuthenticationMiddleware.#ctor(Microsoft.Owin.OwinMiddleware,Owin.IAppBuilder,Microsoft.Owin.Security.Google.GoogleAuthenticationOptions)">
+      <summary>Inizializza una nuova istanza della classe <see cref="T:Microsoft.Owin.Security.Google.GoogleAuthenticationMiddleware" />.</summary>
+      <param name="next">Applicazione successiva da autenticare.</param>
+      <param name="app">Compilatore di applicazioni.</param>
+      <param name="options">Opzioni di autenticazione.</param>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleAuthenticationMiddleware.CreateHandler">
+      <summary>Crea un gestore di autenticazione per questo middleware.</summary>
+      <returns>
+        <see cref="T:Microsoft.Owin.Security.Infrastructure.AuthenticationHandler`1" /> creato.</returns>
+    </member>
+    <member name="T:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions">
+      <summary>Rappresenta le opzioni di autenticazione di Google.</summary>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.#ctor">
+      <summary>Inizializza una nuova istanza della classe <see cref="T:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions" />.</summary>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.BackchannelCertificateValidator"></member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.BackchannelHttpHandler"></member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.BackchannelTimeout"></member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.CallbackPath"></member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.Caption">
+      <summary>Ottiene o imposta la didascalia utilizzata per l'autenticazione.</summary>
+      <returns>Didascalia utilizzata per l'autenticazione.</returns>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.Provider">
+      <summary>Ottiene o imposta il provider di autenticazione Google.</summary>
+      <returns>Provider di autenticazione Google.</returns>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.SignInAsAuthenticationType">
+      <summary>Ottiene o imposta il tipo di autenticazione che viene utilizzato quando si accede a Google.</summary>
+      <returns>Tipo di autenticazione utilizzato quando si accede a Google.</returns>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationOptions.StateDataFormat"></member>
+    <member name="T:Microsoft.Owin.Security.Google.GoogleAuthenticationProvider">
+      <summary>Rappresenta un provider di autenticazione Google.</summary>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleAuthenticationProvider.#ctor">
+      <summary>Inizializza una nuova istanza della classe <see cref="T:Microsoft.Owin.Security.Google.GoogleAuthenticationProvider" />.</summary>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleAuthenticationProvider.Authenticated(Microsoft.Owin.Security.Google.GoogleAuthenticatedContext)">
+      <summary>Indica il contesto di autenticazione specificato.</summary>
+      <returns>Attività che rappresenta l'operazione per autenticare il contesto.</returns>
+      <param name="context">Contesto autenticato Google.</param>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationProvider.OnAuthenticated">
+      <summary>Ottiene o imposta la funzione che chiama l'evento Authenticated.</summary>
+      <returns>Funzione che chiama l'evento Authenticated.</returns>
+    </member>
+    <member name="P:Microsoft.Owin.Security.Google.GoogleAuthenticationProvider.OnReturnEndpoint">
+      <summary>Ottiene o imposta la funzione che chiama l'evento ReturnEndpoint.</summary>
+      <returns>Funzione che chiama l'evento ReturnEndpoint.</returns>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleAuthenticationProvider.ReturnEndpoint(Microsoft.Owin.Security.Google.GoogleReturnEndpointContext)">
+      <summary>Indica il contesto dell'endpoint di restituzione specificato.</summary>
+      <returns>Attività che elabora il processo di restituzione.</returns>
+      <param name="context">Contesto dell'endpoint di restituzione Google.</param>
+    </member>
+    <member name="T:Microsoft.Owin.Security.Google.GoogleReturnEndpointContext">
+      <summary>Rappresenta il contesto dell'endpoint di restituzione Google.</summary>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.GoogleReturnEndpointContext.#ctor(Microsoft.Owin.IOwinContext,Microsoft.Owin.Security.AuthenticationTicket)"></member>
+    <member name="T:Microsoft.Owin.Security.Google.IGoogleAuthenticationProvider">
+      <summary>Fornisce l'interfaccia per il provider di autenticazione Google.</summary>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.IGoogleAuthenticationProvider.Authenticated(Microsoft.Owin.Security.Google.GoogleAuthenticatedContext)">
+      <summary>Indica il contesto di autenticazione specificato.</summary>
+      <returns>Attività che rappresenta l'operazione per autenticare il contesto.</returns>
+      <param name="context">Contesto autenticato Google.</param>
+    </member>
+    <member name="M:Microsoft.Owin.Security.Google.IGoogleAuthenticationProvider.ReturnEndpoint(Microsoft.Owin.Security.Google.GoogleReturnEndpointContext)">
+      <summary>Indica il contesto dell'endpoint di restituzione specificato.</summary>
+      <returns>Attività che elabora il processo di restituzione.</returns>
+      <param name="context">Contesto dell'endpoint di restituzione Google.</param>
+    </member>
+    <member name="T:Owin.GoogleAuthenticationExtensions">
+      <summary>Fornisce i metodi di estensione per l'autenticazione Google.</summary>
+    </member>
+    <member name="M:Owin.GoogleAuthenticationExtensions.UseGoogleAuthentication(Owin.IAppBuilder)">
+      <summary>Chiamato dopo che il middleware utilizza l'autenticazione Google.</summary>
+      <returns>Autenticazione Google.</returns>
+      <param name="app">Compilatore di applicazioni.</param>
+    </member>
+    <member name="M:Owin.GoogleAuthenticationExtensions.UseGoogleAuthentication(Owin.IAppBuilder,Microsoft.Owin.Security.Google.GoogleAuthenticationOptions)">
+      <summary>Chiamato dopo che il middleware utilizza l'autenticazione Google.</summary>
+      <returns>Autenticazione Google.</returns>
+      <param name="app">Compilatore di applicazioni.</param>
+      <param name="options">Opzioni di autenticazione Google.</param>
+    </member>
+  </members>
+</doc>

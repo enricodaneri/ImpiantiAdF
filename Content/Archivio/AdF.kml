@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Impianti Autostrada dei Fiori.kml</name>
+	<open>1</open>
+	<Style id="PanMessVar">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://borgocason.altervista.org/ArchivioIMG/ImmaginiAdF/PMV.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="PMV">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PanMessVar</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PanMessVar</styleUrl>
+		</Pair>
+	</StyleMap>
+  <Style id="CabEle">
+    <IconStyle>
+      <scale>1.1</scale>
+      <Icon>
+        <href>http://borgocason.altervista.org/ArchivioIMG/ImmaginiAdF/Cabina.png</href>
+      </Icon>
+      <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+  </Style>
+  <StyleMap id="Cabina">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CabEle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CabEle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Pannelli a messaggio variabile</name>
+		<open>0</open>
+    <visibility>0</visibility>
+		<Placemark>
+			<name>PMV Itinere Passeggi</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.432246729396377</longitude>
+				<latitude>44.29452631644579</latitude>
+				<altitude>0</altitude>
+				<heading>0.321364754886227</heading>
+				<tilt>0</tilt>
+				<range>67.2746600197754</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.43219405286604,44.29460120552936,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere San Cristoforo</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.452334412711796</longitude>
+				<latitude>44.30397491614231</latitude>
+				<altitude>0</altitude>
+				<heading>0.3353924353332221</heading>
+				<tilt>0</tilt>
+				<range>68.65727836666224</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.452237397482787,44.30401424938466,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Fornaci Est</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.407109471712055</longitude>
+				<latitude>44.25335129552391</latitude>
+				<altitude>0</altitude>
+				<heading>0.3038204492530987</heading>
+				<tilt>0</tilt>
+				<range>93.94065105446367</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.406886728716568,44.25334074947267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Fornaci Ovest</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.39908119458922</longitude>
+				<latitude>44.23673590293116</latitude>
+				<altitude>0</altitude>
+				<heading>0.2982196347042919</heading>
+				<tilt>0</tilt>
+				<range>97.07016235019226</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.399054918616802,44.23669587707871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Santa Libera</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.36163055676508</longitude>
+				<latitude>44.22621218529836</latitude>
+				<altitude>0</altitude>
+				<heading>0.2720979308397361</heading>
+				<tilt>0</tilt>
+				<range>342.284060565448</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.361719256887907,44.22628076543393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Borsana Nord</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.358616474405263</longitude>
+				<latitude>44.22544817566083</latitude>
+				<altitude>0</altitude>
+				<heading>0.2699973443442946</heading>
+				<tilt>0</tilt>
+				<range>115.8600051196188</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.358480541805447,44.22547093486859,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Carpanea Ovest</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.305723674271597</longitude>
+				<latitude>44.19581382720929</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03680770608208477</heading>
+				<tilt>0</tilt>
+				<range>243.4722324270344</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.305402105581923,44.19576605794268,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Porra</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.305782577783287</longitude>
+				<latitude>44.19317550045824</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03676692661321378</heading>
+				<tilt>0</tilt>
+				<range>127.9197913111298</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.305855055884749,44.19308636715732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Bottassano</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.294821037693072</longitude>
+				<latitude>44.17606418903223</latitude>
+				<altitude>0</altitude>
+				<heading>-0.04440627208770873</heading>
+				<tilt>0</tilt>
+				<range>131.4811700203649</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.294795331142623,44.17613725750939,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Monte Grosso Ovest</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.275411049574633</longitude>
+				<latitude>44.16363251859135</latitude>
+				<altitude>0</altitude>
+				<heading>-0.05793007270980259</heading>
+				<tilt>0</tilt>
+				<range>117.1992210443527</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.275381844661405,44.16343769851505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Seminario Ovest</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.245506307657417</longitude>
+				<latitude>44.14116205307303</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07876026148520735</heading>
+				<tilt>0</tilt>
+				<range>146.7284861247163</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.245507690139707,44.14114604746464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Meceti Est</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.244834756099396</longitude>
+				<latitude>44.14047202567572</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07922786146818731</heading>
+				<tilt>0</tilt>
+				<range>120.9132691036247</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.244791277663223,44.14052506016621,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Ceriale Nord</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.204617087666495</longitude>
+				<latitude>44.08707584670662</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1072207738639402</heading>
+				<tilt>0</tilt>
+				<range>260.4799636644101</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.204540305981226,44.08716080920549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Ceriale Sud</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.202917253253467</longitude>
+				<latitude>44.0857401597041</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1084034171448042</heading>
+				<tilt>0</tilt>
+				<range>265.8594801922388</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.202780232839093,44.08577071203976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Isoleri</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.14440528295583</longitude>
+				<latitude>44.04461004620634</latitude>
+				<altitude>0</altitude>
+				<heading>-0.149096542150221</heading>
+				<tilt>0</tilt>
+				<range>233.5262372319644</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.144179175732687,44.04461352963613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Furioso</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.131449876858817</longitude>
+				<latitude>44.02043681920898</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1581025390036876</heading>
+				<tilt>0</tilt>
+				<range>131.4937986898254</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.131510114331466,44.02038728229254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Bric Arpicella</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.134673306195607</longitude>
+				<latitude>43.99712212814848</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1558625719849681</heading>
+				<tilt>0</tilt>
+				<range>134.4556381815362</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.134360329268333,43.99722328539826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Merula Ovest</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.135515488436472</longitude>
+				<latitude>43.96069235261791</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1552757191928717</heading>
+				<tilt>0</tilt>
+				<range>154.7406521225163</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.135510435895807,43.96054669954757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Cavalcavia 80</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.101867232299266</longitude>
+				<latitude>43.93209681184712</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1786225869902039</heading>
+				<tilt>0</tilt>
+				<range>164.7658056806248</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.101979333944634,43.93224810076164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Diano Calderina</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.06879220265871</longitude>
+				<latitude>43.91384534513976</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02294376909638773</heading>
+				<tilt>0</tilt>
+				<range>287.6975717132327</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.068792252659273,43.91375534591681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Gorleri</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.062463341307101</longitude>
+				<latitude>43.9051840022865</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0273327741092322</heading>
+				<tilt>0</tilt>
+				<range>197.0893846169315</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.062861034900537,43.90512188391104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Impero</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.027991428055442</longitude>
+				<latitude>43.89801089862202</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0239019218436372</heading>
+				<tilt>0</tilt>
+				<range>156.0942314246755</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.027552566614254,43.89809435264615,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Sant&apos;Agata</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>8.028020329446083</longitude>
+				<latitude>43.89647100364602</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02388188558823896</heading>
+				<tilt>0</tilt>
+				<range>144.2639657905551</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.027882352125372,43.89650394470296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Conioli Nord</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.908859175644398</longitude>
+				<latitude>43.85199655035283</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1064556758722619</heading>
+				<tilt>0</tilt>
+				<range>298.741233244758</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.908601533006974,43.85170962383058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Castellaro</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.878263138926301</longitude>
+				<latitude>43.85982038434469</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1276537760299077</heading>
+				<tilt>0</tilt>
+				<range>362.3554390825207</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.878580508087612,43.8596374221375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Amoretti</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.827184250489683</longitude>
+				<latitude>43.84453851461175</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1630443462148116</heading>
+				<tilt>0</tilt>
+				<range>327.8036145794113</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.827253241047569,43.84454623125259,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere San Francesco</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.75696935090216</longitude>
+				<latitude>43.83915542236608</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2116750581929608</heading>
+				<tilt>0</tilt>
+				<range>254.4102287851886</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.757112920178106,43.83902485204153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Fossato Bianco</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.713701520358295</longitude>
+				<latitude>43.81028188083466</latitude>
+				<altitude>0</altitude>
+				<heading>-0.241634947627931</heading>
+				<tilt>0</tilt>
+				<range>114.8128624035204</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.713891572703735,43.81035679438938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Costa Martina</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.713224451398197</longitude>
+				<latitude>43.81020849048311</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2419652096090639</heading>
+				<tilt>0</tilt>
+				<range>108.8226607274071</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.713156495970952,43.81025253443702,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Bauso</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.657973625231201</longitude>
+				<latitude>43.80091708710661</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2802063469929182</heading>
+				<tilt>0</tilt>
+				<range>139.1828260009737</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.658124075938173,43.80087097516579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Siestro Ovest</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.599916376622867</longitude>
+				<latitude>43.80166860515228</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3203907045208679</heading>
+				<tilt>0</tilt>
+				<range>96.53295898682838</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.599680643998945,43.80162364797081,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Delmonte Est</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.590801330663568</longitude>
+				<latitude>43.79965614280611</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3266996848113852</heading>
+				<tilt>0</tilt>
+				<range>87.20744660229805</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.590566973336204,43.79957923845424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PMV Itinere Val Sorba</name>
+      <visibility>0</visibility>
+      <LookAt>
+				<longitude>7.549474198296825</longitude>
+				<latitude>43.78755960452037</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3553002285231942</heading>
+				<tilt>0</tilt>
+				<range>124.309051164159</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#PMV</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.549518157940609,43.78752372781008,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Cabine elettriche</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Cabina Fornaci Est</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<a href="http://10.144.1.11/adf/">Telecontrollo</a>]]></description>
+			<LookAt>
+				<longitude>8.406764941165822</longitude>
+				<latitude>44.25085461872466</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07358096315822048</heading>
+				<tilt>0</tilt>
+				<range>394.5705158365031</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.406764941165823,44.25085461872467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Fornaci Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>8.399333437321142</longitude>
+				<latitude>44.23611474597533</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07876617997567571</heading>
+				<tilt>0</tilt>
+				<range>230.3941971394605</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.399371798086566,44.23612165720844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Tosse</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>8.383934705384915</longitude>
+				<latitude>44.22596073121565</latitude>
+				<altitude>0</altitude>
+				<heading>-0.05536571365629246</heading>
+				<tilt>0</tilt>
+				<range>140.7274715548791</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.383734394543701,44.22601008859974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Santa Libera</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>8.363518516067913</longitude>
+				<latitude>44.22735278948645</latitude>
+				<altitude>0</altitude>
+				<heading>-0.06960667790383705</heading>
+				<tilt>0</tilt>
+				<range>70.24442841156133</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.363352315750007,44.22729675606222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Orco Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>8.34714594807771</longitude>
+				<latitude>44.22572243369919</latitude>
+				<altitude>0</altitude>
+				<heading>-0.08102845732744118</heading>
+				<tilt>0</tilt>
+				<range>173.3127917330729</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.346735498852922,44.22580749665404,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Orco Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>8.333222186936924</longitude>
+				<latitude>44.22277651335603</latitude>
+				<altitude>0</altitude>
+				<heading>-0.09073968254998457</heading>
+				<tilt>0</tilt>
+				<range>128.8511420892623</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.333061450060695,44.22267346016672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Montegrosso Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.292882666925616</longitude>
+				<latitude>44.17328500364244</latitude>
+				<altitude>0</altitude>
+				<heading>-0.118864129655475</heading>
+				<tilt>0</tilt>
+				<range>79.22337703752521</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.292835805947918,44.17328467535005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Montegrosso Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.277846375819237</longitude>
+				<latitude>44.16801339101053</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1293412113044092</heading>
+				<tilt>0</tilt>
+				<range>57.56187843795478</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.277818345932067,44.16797899486706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Meceti</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.248304546083169</longitude>
+				<latitude>44.14397243608965</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1499188233919761</heading>
+				<tilt>0</tilt>
+				<range>76.33804239488715</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.248307544196408,44.14392648600465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Boissano</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.24197721903982</longitude>
+				<latitude>44.13686765214973</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1543253543427848</heading>
+				<tilt>0</tilt>
+				<range>48.6442795458851</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.241913528758211,44.13685822437383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Castellaro</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.236234408428846</longitude>
+				<latitude>44.13174312900036</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1583242941611573</heading>
+				<tilt>0</tilt>
+				<range>187.7631566923104</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.236049712661227,44.13178874765415,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Piccaro</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.229366608082525</longitude>
+				<latitude>44.10259723474339</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1631068012073849</heading>
+				<tilt>0</tilt>
+				<range>73.54554351198512</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.229315111997529,44.10258909607976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Vallon d&apos;Arme Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.132381677238092</longitude>
+				<latitude>44.01827156378094</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2305626190657061</heading>
+				<tilt>0</tilt>
+				<range>232.4825070716703</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.132517542198574,44.0181481703767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Vallon d&apos;Arme Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.130949046128629</longitude>
+				<latitude>44.0033954822361</latitude>
+				<altitude>0</altitude>
+				<heading>-0.231559108593455</heading>
+				<tilt>0</tilt>
+				<range>157.4957776710995</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.130797197903195,44.00338524807107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Colle Dico Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.132007094730319</longitude>
+				<latitude>43.95080768180534</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2308175878714617</heading>
+				<tilt>0</tilt>
+				<range>206.5202700433761</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.132029895466159,43.95080023808961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Colle Dico Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.114242302633716</longitude>
+				<latitude>43.94312708173565</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2431467066037316</heading>
+				<tilt>0</tilt>
+				<range>279.755277947193</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.114339305354212,43.94317253386514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Santa Lucia</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.078301382333672</longitude>
+				<latitude>43.92273668710146</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2680842208695367</heading>
+				<tilt>0</tilt>
+				<range>102.6486765820862</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.078110914245592,43.92273363193011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Diano Castello</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.072370344226709</longitude>
+				<latitude>43.92055695113761</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2721984962892766</heading>
+				<tilt>0</tilt>
+				<range>109.8279105983326</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.072233635842117,43.92051723528417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Diano Calderina</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.067672051474242</longitude>
+				<latitude>43.91043106891108</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2754586945256841</heading>
+				<tilt>0</tilt>
+				<range>96.49568586055298</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.067677874810315,43.91036426097515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Gorleri Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.061998901321489</longitude>
+				<latitude>43.90489569786361</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2793930216218046</heading>
+				<tilt>0</tilt>
+				<range>100.0666740191223</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.06190790647673,43.90498020071476,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Gorleri Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.050146936675706</longitude>
+				<latitude>43.89881718643692</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2876127785880435</heading>
+				<tilt>0</tilt>
+				<range>134.8376548709965</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.049987452603457,43.89878875728066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina San Luca</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.043807218566123</longitude>
+				<latitude>43.90136081748163</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2920101609777874</heading>
+				<tilt>0</tilt>
+				<range>82.26321059347471</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.043820672683504,43.90136925162618,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Castelvecchio-Oliveto</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-10-09</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.029984247984116</longitude>
+				<latitude>43.90617176123386</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3015934896735479</heading>
+				<tilt>0</tilt>
+				<range>108.9536051220563</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.029871704616152,43.90620433834866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Bardellina-Costa Ravotto</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-10-09</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.028451929505154</longitude>
+				<latitude>43.89244832048357</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3026561088470261</heading>
+				<tilt>0</tilt>
+				<range>122.8771318230946</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.028230411108169,43.89241261342963,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina San Leonardo</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-10-09</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.013479467062851</longitude>
+				<latitude>43.88723765272664</latitude>
+				<altitude>0</altitude>
+				<heading>-0.31303583028204</heading>
+				<tilt>0</tilt>
+				<range>228.0928825197905</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.013298175770252,43.88720727522741,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Sant&apos;Antonio</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-10-09</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>8.006753782547531</longitude>
+				<latitude>43.883586864964</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3176981892298263</heading>
+				<tilt>0</tilt>
+				<range>239.5722965253249</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>8.006410826530066,43.88348915532364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Poggi-Barbarossa</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-10-09</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.982696926008696</longitude>
+				<latitude>43.86725149165848</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3343708587781719</heading>
+				<tilt>0</tilt>
+				<range>171.7429622257911</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.982659262102643,43.86722916500293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Terre Bianche</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-10-09</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.964849467955072</longitude>
+				<latitude>43.86343682606055</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3467381406242774</heading>
+				<tilt>0</tilt>
+				<range>160.1514618237888</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.964753777650873,43.8633716823844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Costarainera</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2003-11-30</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.947120983212533</longitude>
+				<latitude>43.85575718838355</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3590215693003778</heading>
+				<tilt>0</tilt>
+				<range>122.5661807414696</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.947079351278712,43.85577115762763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Cipressa</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2003-11-30</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.929854291730583</longitude>
+				<latitude>43.8492698145658</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3709836787356018</heading>
+				<tilt>0</tilt>
+				<range>196.2045488280519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.929711531126364,43.84929676979122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Terzorio-Pompeiana</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2003-11-30</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.894900856274295</longitude>
+				<latitude>43.85582714181373</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3951981434148288</heading>
+				<tilt>0</tilt>
+				<range>203.6058348432692</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.894850750417191,43.85571690255197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina San Michele</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.872443889695473</longitude>
+				<latitude>43.86038594671864</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3679874283986365</heading>
+				<tilt>0</tilt>
+				<range>265.7282954213321</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.872099260793018,43.86041452614433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Giamanassa</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.85109215816945</longitude>
+				<latitude>43.86747984339047</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3827811643960083</heading>
+				<tilt>0</tilt>
+				<range>69.30239984421831</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.850990882289109,43.86748669689076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Amoretti</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.837865920299308</longitude>
+				<latitude>43.8476258976387</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3919412416762685</heading>
+				<tilt>0</tilt>
+				<range>140.9993692056472</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.837668171121934,43.8475322541452,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Poggio</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.811457235835466</longitude>
+				<latitude>43.8391852591701</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4102339398607655</heading>
+				<tilt>0</tilt>
+				<range>69.48640789555294</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.811428904856223,43.83918443147523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina San Martino</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.804055532978702</longitude>
+				<latitude>43.83638389333816</latitude>
+				<altitude>0</altitude>
+				<heading>-0.415360272361291</heading>
+				<tilt>0</tilt>
+				<range>61.29279810677578</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.803905296935715,43.83633943723233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Nostra Signora della Villetta</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.790127944726068</longitude>
+				<latitude>43.83292292886135</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4250057190522232</heading>
+				<tilt>0</tilt>
+				<range>218.284370924531</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.790052296890453,43.83296606637397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Montà di Lanza-Costa dei Farina</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.772583638330761</longitude>
+				<latitude>43.83473531748555</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4371560164488038</heading>
+				<tilt>0</tilt>
+				<range>203.8161712776585</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.77205218639838,43.83474101245172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Nostra Signora della Villetta</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.790127944726068</longitude>
+				<latitude>43.83292292886135</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4250057190522232</heading>
+				<tilt>0</tilt>
+				<range>218.284370924531</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.790052296890453,43.83296606637397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Cardellina-Suseneo</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.755569160355472</longitude>
+				<latitude>43.8397174553843</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4489376628993204</heading>
+				<tilt>0</tilt>
+				<range>45.49779088033161</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.755512919730673,43.83974310713852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina San Bartolomeo II</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.745180325539059</longitude>
+				<latitude>43.83257242571407</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4561333965362718</heading>
+				<tilt>0</tilt>
+				<range>91.6117908928435</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.745091148995131,43.8325586119828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina San Lorenzo</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.733251740961157</longitude>
+				<latitude>43.82039063743099</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4643934392076468</heading>
+				<tilt>0</tilt>
+				<range>126.2388958857993</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.73299836413182,43.82031300071483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Coldirodi</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.7310224055788</longitude>
+				<latitude>43.8158006383769</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4659369660437528</heading>
+				<tilt>0</tilt>
+				<range>154.0735052576512</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.730877476126262,43.81581719480126,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Costa Martina</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.713137548714149</longitude>
+				<latitude>43.80974302424647</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4783185562044928</heading>
+				<tilt>0</tilt>
+				<range>535.3047886510111</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.712899712507799,43.8097992276698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Madonna della Ruota-Bordighera</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.679846794624067</longitude>
+				<latitude>43.79427320591096</latitude>
+				<altitude>0</altitude>
+				<heading>-0.5013611204702366</heading>
+				<tilt>0</tilt>
+				<range>559.8650768682301</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.679518375384225,43.79429518826844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Monte Bauso</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.652526188522902</longitude>
+				<latitude>43.80101655132774</latitude>
+				<altitude>0</altitude>
+				<heading>-0.5202700371015469</heading>
+				<tilt>0</tilt>
+				<range>214.2210243509547</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.652142235740715,43.80098942943984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Aprosio</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.635944303021795</longitude>
+				<latitude>43.80091518458018</latitude>
+				<altitude>0</altitude>
+				<heading>-0.5317470386287414</heading>
+				<tilt>0</tilt>
+				<range>151.6460356380641</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.635478104314117,43.8009290427572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Siestro Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.622959229914412</longitude>
+				<latitude>43.80213359255571</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2517243637691574</heading>
+				<tilt>0</tilt>
+				<range>89.05384136959859</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.622847338217444,43.80214886406994,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Siestro Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.600185740834762</longitude>
+				<latitude>43.80172073893429</latitude>
+				<altitude>0</altitude>
+				<heading>0.9634020661107104</heading>
+				<tilt>0</tilt>
+				<range>185.6160049873967</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.599886518643897,43.801808047221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Roverino</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.599766934203028</longitude>
+				<latitude>43.80140287636668</latitude>
+				<altitude>0</altitude>
+				<heading>0.9631121833665763</heading>
+				<tilt>0</tilt>
+				<range>135.0601393543496</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.599217873762534,43.80141100520434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Nuova Roya</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.593321116922316</longitude>
+				<latitude>43.79998842343424</latitude>
+				<altitude>0</altitude>
+				<heading>0.9586506668112383</heading>
+				<tilt>0</tilt>
+				<range>419.8019228039158</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.591862555989904,43.8002380657821,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Roya FS</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.591934392238992</longitude>
+				<latitude>43.79955220290743</latitude>
+				<altitude>0</altitude>
+				<heading>0.9576908481499956</heading>
+				<tilt>0</tilt>
+				<range>224.1343600128257</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.591354273276505,43.79978693659817,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Delmonte Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.591787452292762</longitude>
+				<latitude>43.79968357943516</latitude>
+				<altitude>0</altitude>
+				<heading>2.970520020071104</heading>
+				<tilt>0</tilt>
+				<range>264.6710482155758</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.590886267607706,43.79945342499773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Delmonte Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2010-06-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.571705617578025</longitude>
+				<latitude>43.79696713858575</latitude>
+				<altitude>0</altitude>
+				<heading>2.956620952141079</heading>
+				<tilt>0</tilt>
+				<range>103.507366102373</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.571685395724115,43.79691220980904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Belvedere</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2013-03-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.556318988451773</longitude>
+				<latitude>43.79067119722107</latitude>
+				<altitude>0</altitude>
+				<heading>2.945972004859107</heading>
+				<tilt>0</tilt>
+				<range>119.9519407516193</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.556184896856506,43.79066507542398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Grimaldi Est</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2013-03-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.543851933705497</longitude>
+				<latitude>43.7893869511917</latitude>
+				<altitude>0</altitude>
+				<heading>2.937344915642843</heading>
+				<tilt>0</tilt>
+				<range>223.2059873344324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.543709199842967,43.78929191141888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cabina Grimaldi Ovest</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<gx:TimeStamp><when>2013-03-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>7.534607687435269</longitude>
+				<latitude>43.78945586719726</latitude>
+				<altitude>0</altitude>
+				<heading>2.930947792784767</heading>
+				<tilt>0</tilt>
+				<range>136.6048822011544</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#Cabina</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.534462301627936,43.78947012544862,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

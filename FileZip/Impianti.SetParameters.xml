@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="ImpiantiAdF" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=tcp:bbrlpmm4lw.database.windows.net,1433;Initial Catalog=DbImpianti;User ID=ADFIEA@bbrlpmm4lw;Password=01Gennaio1996" />
+  <setParameter name="Impianti-Web.config Connection String" value="Data Source=tcp:bbrlpmm4lw.database.windows.net,1433;Initial Catalog=DbImpianti;User ID=ADFIEA@bbrlpmm4lw;Password=01Gennaio1996" />
+  <setParameter name="DbImpianti-Web.config Connection String" value="Data Source=tcp:bbrlpmm4lw.database.windows.net,1433;Initial Catalog=DbImpianti;User ID=ADFIEA@bbrlpmm4lw;Password=01Gennaio1996" />
+</parameters>

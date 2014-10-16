@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.FriendlyUrls.Core.it</id>
+    <version>1.0.2</version>
+    <title>Microsoft ASP.NET Friendly URLs - Risorse per l'italiano</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ita.htm</licenseUrl>
+    <projectUrl>http://www.asp.net/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Il pacchetto contiene gli assembly satellite di Microsoft ASP.NET Friendly URLs per l'italiano.</description>
+    <language>it</language>
+    <tags>Microsoft AspNet</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.FriendlyUrls.Core" version="[1.0.2]" />
+    </dependencies>
+  </metadata>
+</package>

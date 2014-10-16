@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <!--meta charset="utf-8" name="viewport" content="initial-scale=1.0, user-scalable=no" /-->
+    <title></title>
+    <!--script src="~/Scripts/modernizr-2.6.2.js"></!--script-->
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map-canvas {
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnIf_dEfoH_-B0i1sK09pxxDOhzxBQpMg">
+    </script>
+
+    <!--center: new google.maps.LatLng(43.890642, 8.036482) coordinate Centro Direzionale
+        alert(kmlEvent.featureData.Point.coordinates); -->
+
+    <script type="text/javascript">
+        function initialize(layerKML) {
+            var contentString = '<iframe width="200" height="150" src="http://borgocason.altervista.org/ArchivioIMG/Galapagos_Map.jpg"></iframe>';
+            var myLatLng = new google.maps.LatLng(43.990642, 8.136482);
+            var mapOptions = {
+                center: new google.maps.LatLng(43.990642, 8.136482),
+                zoom: 10
+            };
+            var map = new google.maps.Map(document.getElementById("map-canvas"),
+                mapOptions);
+            var ctaLayer = new google.maps.KmlLayer({
+                url: 'http://borgocason.altervista.org/ArchivioKML/AdF.kml'
+            });
+            ctaLayer.setMap();
+            var ctaLayerAgg = [];
+            for (n = 0; n < layerKML.length; n++) {
+                //alert(layerKML[n].nome[0].textContent);
+                if (layerKML[n].selx == true) {
+                    ctaLayerAgg[n] = new google.maps.KmlLayer({
+                        url: layerKML[n].fKML[0].textContent,
+                        map: map,
+                        suppressInfoWindows: true
+                    });
+                    google.maps.event.addListener(ctaLayerAgg[n], 'click', function (kmlEvent) {
+                        var formatFeatureData = kmlEvent.featureData.description;
+                        var deformatFeatureData = formatFeatureData.slice(0, formatFeatureData.lastIndexOf("}") - 1);
+                        deformatFeatureData = deformatFeatureData.slice(0, deformatFeatureData.lastIndexOf("}") - 1) + ' , "abilitato": False } }';
+                        var win = window.frameElement.ownerDocument.getElementById("WidgInfo");
+                        win.contentWindow.postMessage(deformatFeatureData, "http://impiantiadf.azurewebsites.net");
+                        //win.contentWindow.postMessage(deformatFeatureData, "http://localhost:56909");
+                    });
+                };
+            };
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload = function () {
+            function listener(event) {
+                //if (event.origin !== "http://localhost:56909")
+                if (event.origin !== "http://impiantiadf.azurewebsites.net")
+                return;
+                if (event.data == 0)
+                return;
+                if (window.DOMParser) {
+                    parser = new DOMParser();
+                    xmlDoc = parser.parseFromString(event.data, "text/xml");
+                }
+                else // Internet Explorer
+                {
+                    xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+                    xmlDoc.async = false;
+                    xmlDoc.loadXML(event.data);
+                };
+                var ColonneMenu = xmlDoc.getElementsByTagName("colo_menu");
+                var VociMenu = ["VociMenu"];
+                var k = 0;
+                for (i = 0; i < 6; i++){
+                    if (ColonneMenu[i].getElementsByTagName("voce_menu").length>0){
+                        for (j = 0; j < ColonneMenu[i].getElementsByTagName("voce_menu").length; j++) {
+                            VociMenu[k] = {
+                                nome: ColonneMenu[i].getElementsByTagName("voce_menu")[j].getElementsByTagName("name"),
+                                selx: (ColonneMenu[i].getElementsByTagName("voce_menu")[j].getElementsByTagName("selezionato")[0].textContent == "true"),
+                                fKML: ColonneMenu[i].getElementsByTagName("voce_menu")[j].getElementsByTagName("KML-file"),
+                            }
+                            k++;
+                        }
+                    }
+                }
+                initialize(VociMenu);
+            }
+            if (window.addEventListener) {
+                addEventListener("message", listener, false)
+            }
+            else {
+                attachEvent("onmessage", listener)
+            }
+        }
+    </script>
+    <script type="text/javascript">
+
+        function fetchStatus(address) {
+            var client = new XMLHttpRequest();
+            client.onreadystatechange = function () {
+                // in case of network errors this might not give reliable results
+                if (this.readyState == this.DONE)
+                    if (this.status == 200) { }
+                    else { };
+            }
+            client.open("HEAD", address);
+            client.send();
+        }
+
+    </script>
+    <div id="map-canvas" />
+</body>
+</html>

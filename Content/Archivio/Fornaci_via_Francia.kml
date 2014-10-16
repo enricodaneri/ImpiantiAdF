@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Fornaci via Francia</name>
+	<Style id="line-1267FF-5">
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="icon-503-DB4436">
+		<IconStyle>
+			<color>ff3644db</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Fornaci via Francia, imbocchi</name>
+		<Placemark>
+			<name>Fornaci via Francia imbocco Est</name>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>8.4061986,44.2511936,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fornaci via Francia imbocco Ovest</name>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>8.3986938,44.2373668,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Indicazioni stradali da Fornaci via Francia imbocco Est a Fornaci via Francia imbocco Ovest</name>
+		<Placemark>
+			<name>Indicazioni stradali da Fornaci via Francia imbocco Est a Fornaci via Francia imbocco Ovest</name>
+			<styleUrl>#line-1267FF-5</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					8.40621,44.25121,0 8.40602,44.25082,0 8.405849999999999,44.25052,0 8.40564,44.25021,0 8.40521,44.24957,0 8.404740000000002,44.24897,0 8.40419,44.24818,0 8.40344,44.24715,0 8.40292,44.24641,0 8.4025,44.2458,0 8.40189,44.24495,0 8.4016,44.24452,0 8.40155,44.24442,0 8.400320000000001,44.24277,0 8.39993,44.24216,0 8.39927,44.24078,0 8.399039999999999,44.24011000000001,0 8.398870000000001,44.23938,0 8.39878,44.23874,0 8.398740000000002,44.23814,0 8.3987,44.23736,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Fornaci via Francia imbocco Est</name>
+			<description>A10 Genova - Ventimiglia, 17047 Vado ligure SV, Italia</description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>8.4062114,44.251206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fornaci via Francia imbocco Ovest</name>
+			<description>A10 Genova - Ventimiglia, 17028 Spotorno SV, Italia</description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>8.398696800000002,44.2373568,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
