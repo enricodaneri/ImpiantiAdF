@@ -44,12 +44,12 @@
     
 
     <div id="SezioneSinistra" style="float:left; display:block">
-        <iframe id="Mappa" width="1024" height="680" src="http://impiantiadf.azurewebsites.net/Content/Archivio/AdF.html"></iframe>
+        <!--<iframe id="Mappa" width="1024" height="680" src="http://impiantiadf.azurewebsites.net/Content/Archivio/AdF.html"></iframe-->
     <!--http://localhost:49554/Content/Archivio/AdF.html -->
     <!--http://impiantiadf.azurewebsites.net/Content/Archivio/AdF.html -->
     </div>
     <div id="SezioneDestra" style="float:left; display:block" >
-        <iframe id="WidgInfo" name="WidgInfo" width="680" height="680" src="http://impiantiadf.azurewebsites.net/Content/Archivio/SezioneSinistra.aspx"></iframe>  
+        <!--iframe id="WidgInfo" name="WidgInfo" width="680" height="680" src="http://impiantiadf.azurewebsites.net/Content/Archivio/SezioneSinistra.aspx"></iframe-->  
     <!--http://impiantiadf.azurewebsites.net/Content/Archivio/SezioneSinistra.aspx -->
     <!--http://localhost:49554/Content/Archivio/SezioneSinistra.aspx -->
     </div>
