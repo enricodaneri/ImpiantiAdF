@@ -6,8 +6,17 @@
     <title></title>
 </head>
 <body>
-     <div >
-        <iframe id="MappaErrore" width="1024" height="680" src="http://impiantiadf.azurewebsites.net/Content/Archivio/ProvaErr.html"></iframe>
+    <script type="text/javascript">
+    function goBack() {
+        window.history.back()
+    }
+    </script>
+
+    <div >
+        <img src="https://impianti.blob.core.windows.net/images/Errore.png" width="692" height="680" alt="Errore" usemap="#Err" />
+        <map name="Err">
+             <area shape="rect" coords="126,440,560,556" alt="Torna indietro" href="javascript:goBack()">
+        </map>
     </div>
 </body>
 </html>

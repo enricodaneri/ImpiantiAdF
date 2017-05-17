@@ -1,20 +1,11 @@
 ﻿Option Explicit Off
 
-Imports System
 Imports System.Data
 Imports System.Data.SqlClient
-Imports System.Configuration
-Imports System.Web.UI
-Imports System.Web.UI.HtmlControls
 
 Partial Class _Default
-
-
-
     Inherits Page
-
     Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
-    'Protected WithEvents HorMenu As System.Web.UI.HtmlControls.HtmlGenericControl
 
     Shared Sub Main()
 
@@ -22,102 +13,102 @@ Partial Class _Default
 
     Public Sub HorMenu_Load(sender As Object, e As EventArgs)
 
-        Dim queryString As String = "SELECT ColoMenu, RigaMenu, TipoVoceMenu, VoceMenu, SorgenteKML, Acronimi FROM HorMenu WHERE ColoMenu = "
         Dim I As Integer
         Dim stringa As String
         Dim DescrizioneColonnaMenu As String
-        Dim UseDb As String
-        Dim HtmlInterno As String
+        Dim HtmlInterno As String = ""
         Dim VoceMenu As HtmlGenericControl
-        Dim XMLvar As String
 
-        'MsgBox(Server.MachineName)
+        For I = 1 To 10 'Itero sulle sei colonne del menù
+            VoceMenu = sender.FindControl("Menu" & Trim(Str(I)))
+            Dim dT As DataTable = EstraiDati("SELECT * FROM HorMenu WHERE ColoMenu = " & I & " AND RigaMenu = 0")
+            If dT.Rows.Count > 0 Then
+                DescrizioneColonnaMenu = dT.Rows(0).Item("VoceMenu")
+                HtmlInterno = DescrizioneColonnaMenu & "<ul>"
+                dT = EstraiDati("SELECT * FROM HorMenu WHERE ColoMenu = " & I & " AND RigaMenu <> 0")
+                Dim dR As DataRow
+                For Each dR In dT.Rows
+                    Select Case dR.Item("TipoVoceMenu")
+                        Case "input type=""checkbox"""
+                            Dim nome As String
+                            With dR
+                                If DBNull.Value.Equals(.Item("Acronimi")) Then
+                                    nome = ""
+                                Else
+                                    nome = .Item("Acronimi")
+                                End If
 
-        Select Case Server.MachineName
+                                stringa = "<" & .Item("TipoVoceMenu") & " class=""visto"" id=""" & LCase(.Item("VoceMenu")) & """ onclick=""MenuElement(this.id)"" data-kml=""" & .Item("SorgenteKML") & """ name=""" & nome & """>" &
+                                          "<label class=""pulsante"" id=""lab_" & LCase(.Item("VoceMenu")) & """ for=""" & LCase(.Item("VoceMenu")) & """>" & .Item("VoceMenu") & "</label>"
+                            End With
+                            HtmlInterno = HtmlInterno & "<li>" & stringa & "</li>"
+                        Case "a href=""#"""
+                            HtmlInterno = HtmlInterno & "<li>" & dR.Item("VoceMenu") & "</li>"
+                        Case "label"
+                            HtmlInterno = HtmlInterno & "<li>" & dR.Item("VoceMenu") & "</li>"
+                        Case Else
+
+                    End Select
+
+                Next
+                HtmlInterno = HtmlInterno & "</ul>"
+                VoceMenu.InnerHtml = HtmlInterno
+            Else
+                VoceMenu.InnerHtml = "<ul> </ul>"
+            End If
+        Next I
+
+    End Sub
+
+    Shared Function EstraiDati(ByVal queryString As String) As DataTable
+
+        Dim UseDb As String
+        Dim dt As New DataTable
+        Dim constrTab As New DataTable
+        EstraiDati = Nothing
+
+        Select Case Environment.MachineName
             Case "DANERI"
                 UseDb = "Impianti"
             Case Else
                 UseDb = "DbImpianti"
         End Select
 
-        XMLvar = "<menu> </menu>"
-
         Using connection As New SqlConnection(GetConnectionStringByName(UseDb))
-
-
             connection.Open()
-
-            For I = 1 To 6 'Itero sulle sei colonne del menù
-                VoceMenu = sender.FindControl("Menu" & Trim(Str(I)))
-                DescrizioneColonnaMenu = "Menu" & Trim(Str(I))
-
-                Dim commandHead As New SqlCommand(queryString & Trim(Str(I)) & " and RigaMenu = 0", connection)
-                Dim readerHead As SqlDataReader = commandHead.ExecuteReader()
-
-                Try
-                    While readerHead.Read()
-                        If (readerHead Is Nothing) Then
-
-                        Else
-                            DescrizioneColonnaMenu = readerHead.Item(3)
-
-                        End If
-                    End While
-                Finally
-                    readerHead.Close()
-                End Try
-
-                HtmlInterno = DescrizioneColonnaMenu & "<ul>"
-
-                Dim command As New SqlCommand(queryString & Trim(Str(I)) & " and RigaMenu > 0", connection)
-                Dim reader As SqlDataReader = command.ExecuteReader()
-
-                Try
-                    While reader.Read()
-
-                        If VoceMenu Is Nothing Then
-
-                        Else
-                            Select Case reader.Item(2).ToString
-                                Case "input type=""checkbox"""
-                                    stringa = "<" & reader.Item(2) & " class=""visto"" id=""" & LCase(reader.Item(3)) & """ onclick=""MenuElement(this.id)"" data-kml=""" & reader.Item(4) & """>" & _
-                                        "<label class=""pulsante"" id=""lab_" & LCase(reader.Item(3)) & """ for=""" & LCase(reader.Item(3)) & """>" & reader.Item(3) & "</label>"
-                                    HtmlInterno = HtmlInterno & "<li>" & stringa & "</li>"
-                                Case "a href=""#"""
-                                    HtmlInterno = HtmlInterno & "<li>" & reader.Item(3) & "</li>"
-                                Case "label"
-                                    HtmlInterno = HtmlInterno & "<li>" & reader.Item(3) & "</li>"
-                                Case Else
-                            End Select
-
-                        End If
-
-                    End While
-
-                Finally
-                    reader.Close()
-                End Try
-                HtmlInterno = HtmlInterno & "</ul>"
-                VoceMenu.InnerHtml = HtmlInterno
-            Next I
+            Dim commandHead As New SqlCommand(queryString, connection)
+            Dim readerHead As SqlDataAdapter = New SqlDataAdapter(commandHead)
+            readerHead.FillSchema(dt, SchemaType.Source)
+            readerHead.Fill(dt)
+            readerHead.FillSchema(constrTab, SchemaType.Source)
+            connection.Close()
         End Using
+        EstraiDati = dt
 
-    End Sub
+    End Function
+
+    Shared Function ProtectSpaces(Frase As String, Apici As Integer) As String
+
+        Dim StrApici = Left("''", Apici)
+
+        If Len(Frase) = Len(Replace(Frase, " ", "")) Then
+            ProtectSpaces = Frase
+        Else
+            ProtectSpaces = StrApici & Frase & StrApici
+        End If
+
+    End Function
 
     Private Shared Function GetConnectionStringByName(ByVal name As String) As String
 
-        ' Assume failure
         Dim returnValue As String = Nothing
-
-        ' Look for the name in the connectionStrings section.
         Dim settings As ConnectionStringSettings = ConfigurationManager.ConnectionStrings(name)
-
-        ' If found, return the connection string.
         If Not settings Is Nothing Then
             returnValue = settings.ConnectionString
         End If
 
         Return returnValue
+
     End Function
 
 End Class

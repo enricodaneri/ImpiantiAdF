@@ -1,111 +1,70 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="true" CodeFile="~/Site.master.vb" Inherits="SiteMaster" %>
 
-<%@ Import Namespace="System.Web.Optimization" %>
+<%@ Register assembly="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" namespace="Microsoft.Reporting.WebForms" tagprefix="rsweb" %>
 
 <!DOCTYPE html>
-
 <html lang="it" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
 <head runat="server">
-<!--meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Impianti AdF</title>
-
-    <asp:PlaceHolder runat="server">
-
-    </asp:PlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="https://impianti.blob.core.windows.net/images/AdfColore.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width" />
-    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
-
+    <script type="text/javascript" src="https://impianti.blob.core.windows.net/js-rep/Axml2json.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 <body>
-    <script type="text/javascript">
-
-
-    </script>
-
-    <script type="text/javascript">
-        function MenuElement(idChBox) {
-            var ColoMenu = ["Menu Impianti"];
-            var MenuXML = "<menu><name>" + ColoMenu[0] + "</name>";
-            for (i = 1; i < 7; i++) {
-                MenuXML = MenuXML + "<colo_menu><name>" + document.getElementById("FeaturedContent_Menu".concat(i)).title + "</name>";
-                ColoMenu[i] = document.getElementById("FeaturedContent_Menu".concat(i)).getElementsByTagName("input");
-                if (ColoMenu[i].length > 0) {
-                    for (j = 0; j < ColoMenu[i].length; j++) {
-                        MenuXML = MenuXML + "<voce_menu><name>" + ColoMenu[i][j].id + "</name><selezionato>" + JSON.stringify(ColoMenu[i][j].checked) + "</selezionato><KML-file>" + ColoMenu[i][j].dataset.kml + "</KML-file></voce_menu>"
-                        //alert(document.getElementById("FeaturedContent_Menu".concat(i)).title + " " + ColoMenu[i][j].id + "" + JSON.stringify(ColoMenu[i][j].checked));
-                    }
-                }
-                MenuXML = MenuXML + "</colo_menu>"
-            }
-            MenuXML = MenuXML + "</menu>";
-            //alert(MenuXML);
-            var win = document.getElementById("Mappa").contentWindow;
-            win.postMessage(MenuXML, "http://impiantiadf.azurewebsites.net");
-            //win.postMessage(MenuXML, "http://localhost:56909");
-        }
-    </script>
-    <!--asp:ScriptReference Name="MsAjaxBundle" />
-                <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
-                <asp:ScriptReference Name="respond" / -->
-    <form runat="server">
-        <asp:ScriptManager runat="server">
-            <Scripts>
-                <%--Per ulteriori informazioni sulla creazione di bundle di script in ScriptManager, vedere http://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--Script framework--%>
-
-                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
-                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
-                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
-                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
-                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
-                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
-                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
-                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-                 <%--Script sito--%>
-            </Scripts>
-        </asp:ScriptManager>
+    <form id="FormCorpo" runat="server">
         <header>
             <div class="content-wrapper">
-                <div class="float-left">
+                <div class="float-left" style="width:14.2%; height:166px;">
                     <p class="site-title">
-                        <a runat="server" href="~/"><img src="Images/ADfColore.png" width="140" height="166" /></a>
+                        <a runat="server" href="~/">
+                            <asp:image runat="server" ImageUrl="https://impianti.blob.core.windows.net/images/AdfColore.png" width="140" height="166" />
+                        </a>
                     </p>
                 </div>
-                <div class="float-left">
+                <div class="float-left" style="width:44.3%; height:166px;">
                     <p class="site-title logo">
-                        Localizzazione impianti Autostrada dei Fiori
+                        Localizzazione impianti <br />
+                        Autostrada dei Fiori
                     </p>
                 </div>
-                <div class="float-right">
-                    <section id="login">
- 
-                    </section>
+                <div class="float-left" style="width:38.7%; height:166px;">
                     <nav>
                         <ul id="menu">
-                            <li><a runat="server" href="~/">Home</a></li>
+                            <asp:LoginView runat="server" ViewStateMode="Disabled">
+                                <AnonymousTemplate>
+                                    <li><a runat="server" href="~/" id="lblUtente">Benvenuto, Anonimo</a></li>
+                                    <li><a runat="server" href="~/Account/Login.aspx">Accedi</a></li>
+                                    <li><a runat="server" href="~/">Home</a></li>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    <li><a runat="server" href="~/Account/Profilo" title="Manage your account">Benvenuto, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                    <li><asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Disconnetti" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" /></li>
+                                    <li><a runat="server" href="~/">Home</a></li>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
                         </ul>
                     </nav>
+
                 </div>
             </div>
         </header>
         <div id="body">
-            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" >
+            </asp:ContentPlaceHolder>
             <section class="content-wrapper main-content clear-fix" >
-                <asp:ContentPlaceHolder runat="server" ID="MainContent"/>
             </section>
         </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
         <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>
-                        &copy; <%: DateTime.Now.Year %> - My ASP.NET Application
-                    </p>
-                </div>
+            <div class="float-left">
+                <p>
+                    Attenzione, il sito ImpiantiAdF non ha carattere ufficiale
+                </p>
             </div>
         </footer>
     </form>
